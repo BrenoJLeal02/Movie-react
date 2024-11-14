@@ -1,0 +1,157 @@
+.movie_page{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 2rem auto;
+}
+.movie_page svg{
+    font-size: 1.5rem;
+    color: #f7d354;
+}
+
+.movie_page .movie_card{
+    text-align: center;
+}
+
+.movie_page .movie_card img,
+.movie_page .movie_card h2,
+.movie_page .movie_card p{
+    margin-bottom: 1rem;
+    
+}
+.movie_page .movie_card h2{
+    font-size: 2rem;
+}
+.movie_page .movie_card p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .4rem;
+}
+.tagline{
+    text-align: center;
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+}
+.info{
+    margin-bottom: .5rem;
+}
+.info h3{
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.trailer h3 {
+    margin-bottom: 1rem;
+    
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.info p{
+    margin-bottom: 1rem;
+}
+.value{
+    margin-left: 10px;
+}
+
+.description{
+    padding-bottom: .7rem;
+}
+.description p{
+    text-align: justify;
+    line-height: 1.4rem;
+    font-size: 1rem;
+
+}
+@media (max-width:  768px) {
+   
+    .movie_page .movie_card img{
+        width: 50%;
+    }
+    .movie_page .movie_card h2{
+        font-size: 1.2rem;
+    }
+    .tagline{
+        text-align: center;
+        font-size: 1rem;
+        margin-bottom: 2rem;
+    }
+    .description p{
+        text-align: justify;
+        line-height: 1.4rem;
+        font-size: 1rem;
+        padding: 18px;
+        
+    
+    }
+    .movie_page svg{
+        margin-left: 10px;
+    }
+
+
+}
+
+@media (max-width:  500px) {
+   
+    .movie_page .movie_card img{
+        width: 50%;
+    }
+    .movie_page .movie_card h2{
+        font-size: 1.2rem;
+    }
+    .tagline{
+        text-align: center;
+        font-size: .8rem;
+        margin-bottom: 2rem;
+    }
+    .description p{
+        text-align: justify;
+        line-height: 1.4rem;
+        font-size: 1rem;
+        padding: 18px;
+    
+    }
+
+}
+
+
+
+
+.embed-responsive {
+    position: relative;
+    display: block;
+    width:  100%;
+    margin-top: 1rem;
+    padding:  0;
+    overflow: hidden;
+  }
+  
+  .embed-responsive::before {
+    display: block;
+    content: "";
+  }
+  
+  .embed-responsive .embed-responsive-item {
+    width: 100%;
+    height: 450px;
+    border-radius: 5px;
+  }
+  @media (max-width:  700px) {
+   
+    .embed-responsive .embed-responsive-item {
+        display: flex;
+        justify-content: center;
+        margin:  0 auto;
+        width: 80%;
+        height: 250px;
+        border-radius: 5px;
+    }
+
+}
+
+
+  
+
